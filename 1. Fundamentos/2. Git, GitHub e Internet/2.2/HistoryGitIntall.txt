@@ -1,0 +1,12 @@
+    1  sudo apt-get install git-all
+    2  git config --global user.name "Laura Lana"
+    3  git config --global user.email lauramarqueslana@gmail.com
+    4  git config --global core.editor "code --wait"
+    5  code .gitconfig
+    6  git --version
+    7  git config --list
+    8  ssh-keygen -t rsa -b 4096 -C "lauramarqueslana@gmail.com"
+    9  eval "$(ssh-agent -s)"
+   10  ssh-add ~/.ssh/id_rsa
+   11  cat ~/.ssh/id_rsa.pub
+   12  history | cat > HistoryGitIntall.txt

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Laura Lana</title>
+    
+</head>
+<body>
+    <h1 id="cabecario"> Olá Tribo! </h1>
+    <img src="./glitter.jfif" alt="Laura Lana close pic" width="300" id="info"> 
+
+<p> <strong>Laura Marques Lana de Souza </strong> 
+    (no nickname)
+    <br>
+    24 aninhos | 21-05-1997 
+    <br>
+    Belo Horizonte - Minas Gerais - PT~Br
+    <br>
+    <br>
+    Feminista; Mãe de gatos; Potterhead; Otaku &
+    <br>
+    <i>Estudante de Desenvolvimento Web Full Stack | Trybe</i> 
+    <br> 
+    <h4> Habilidades e Curiosidades:</h4>
+    <ul> 
+        <li> Inglês avançado </li>
+        <li> Bom humor </li>
+        <li> Facilidade com trabalhos manuais</li>
+        <li> Tenho uma irmã gêmea idêntica</li>
+   </ul>
+   <h4 id="redes"> Links </h4>  
+   <ul>
+       <li> <a href="https://github.com/lauralana" target="_blank"> GitHub </a> </li>
+       <li> <a href="https://www.linkedin.com/in/laura-lana/" target="_blank"> Linkedin </a> </li>
+   </ul><br><br> <hr>
+       <h6>Seções do Portfólio 
+   <ul>
+        <a href="#cabecario"> Início </a>  <br>              
+        <a href="#info"> Sobre mim </a> <br>
+        <a href="#redes"> Minhas redes </a> <br>
+       </h6>
+    </ul>
+</p>
+</body>
+</html>

@@ -1,0 +1,287 @@
+ 
+h1{
+  text-align: center;
+  color: #F2055C;
+  font-family: monospace;
+  background-color: pink;
+  padding: 15px;
+  border-style: inset;
+  border-color: whitesmoke;
+  border-width: 8px;
+  margin: 10px;
+  }
+
+.caixa {
+  color: white;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: top;
+  }
+  
+.width-and-height {
+  height: 50px;
+  width: 50px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding { 
+  padding: 20px;
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin { 
+  margin: 30px;
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border { 
+  border: 5px solid #79bf34;
+ }
+
+
+
+                                /* CSS da parte de fixação */
+
+
+
+.super-mario {
+  width: 130px;
+  position:absolute;
+  top: 715px;
+  left: 130px;
+  }
+  
+.goomba {
+  width: 60px;
+  position:absolute;
+  top: 885px;
+  left: 220px;
+  }
+  
+.baloon {
+  width: 250px;
+  position:absolute;
+  top: 650px;
+  left: 350px;
+  } 
+  
+.speach {
+  font-size: 15px;
+  position: absolute;
+  top: 700px;
+  left:380px;
+  z-index: 1;
+  color: #F2055C;
+  font-family: monospace;
+  font-weight: bolder;
+  }
+  
+.bowser {
+  width: 310px;
+  position:absolute;
+  top: 720px;
+  left: 600px;
+ 
+  }
+  
+.margem {
+  width: 850px ;
+  height: 470px;
+  border: 8px solid #79bf34;
+  padding: 20px;
+  margin: 30px;
+  }
+
+
+
+                                 /* terceira parte de exercicios */
+
+
+
+ol li:nth-child(even) a{
+  text-decoration: none;
+  color: pink;
+  font-weight:bolder;
+  font-size: 20px;
+}
+
+ol li:nth-child(odd) a{
+  text-decoration: none;
+  color: #A150f2;
+  font-weight:bolder;
+  font-size: 20px; 
+}
+
+ol li:nth-child(odd):hover a{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: monospace;
+  background-color: #79bf34;
+  padding: 5px;
+}
+
+ol li:nth-child(even):hover a{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: monospace;
+  background-color:#F20587;
+  padding: 5px;
+}
+/*  essa função não está sendo exibida */
+
+ol li:nth-child(odd):hover:active a{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #79bf34;
+  padding: 5px;
+}
+
+ol li:nth-child(even):hover:active a{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:#F20587;
+  padding: 5px;
+}
+
+ul{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+ul li{
+  font-weight:lighter ;
+  list-style: none;
+  font-size: 13px;
+}
+
+#degrade{
+  background-image:linear-gradient(90deg,#F2055C,#F20587, pink ,#A150F2,#79BF34);
+  padding: 100px;
+  color: whitesmoke;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: monospace;
+  margin-top: auto;
+}
+
+div p.paleta:nth-of-type(1){
+  background-color: #F2055C;
+  font-weight: bolder;
+  padding: 5px;
+  margin:0;
+  border:0;
+}
+
+div p.paleta:nth-of-type(2){
+  background-color:#F20587;
+  font-weight: bolder;
+  padding: 5px;
+  margin:0;
+  border:0;
+  }
+
+div p.paleta:nth-of-type(3){
+  background-color: pink;
+  font-weight: bolder;
+  padding: 10px;
+  margin:0;
+  border:0;
+  }  
+
+div p.paleta:nth-of-type(4){
+  background-color:#A150F2;
+  font-weight: bolder;
+  padding: 5px;
+  margin:0px;
+  border:0;
+  }  
+
+div p.paleta:nth-of-type(5){
+  background-color:#79BF34;
+  font-weight: bolder;
+  padding: 5px;
+  margin:0;
+  border:0;
+  }
+
+div p.paleta:nth-child(even):hover{
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: large;
+  }  
+
+div p.paleta:nth-child(odd):hover{
+  background-color: black; 
+  color: whitesmoke;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: large;
+}
+
+
+
+                                 /* quarta parte de exercicios */
+
+
+
+ul li.impar {
+  color: #A150f2;
+  font-weight:bolder;
+  font-size: medium
+  }
+                                
+ul li.par {
+  color: pink;
+  font-weight:bolder;
+  font-size: medium
+  }
+
+ul li.par:hover {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: monospace;
+  background-color: #F20587;
+  padding: 5px;
+  }
+
+ul li.impar:hover {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: monospace;
+  background-color: #79bf34;
+  padding: 5px;
+  }
+
+    
+ul li.par a {
+  text-decoration: none;
+  color: pink;
+  }  
+
+ul li.impar a {
+  text-decoration: none;
+  color: #A150f2;
+  }  
+    
+h3{
+  background-color:#F2055C ;
+  padding: 5px;
+  }
+
+ol li em {
+  font-weight: bold;
+  }
+
+ 
+
