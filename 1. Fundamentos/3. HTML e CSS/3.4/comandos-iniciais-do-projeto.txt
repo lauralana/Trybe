@@ -1,0 +1,20 @@
+   66  git branch -a
+   67  git checkout  remotes/origin/lecture/3.2\n
+   68  git pull origin lecture/3.2
+   69  ls
+   70  cd 'Primeiro projeto/'
+   71  git clone git@github.com:tryber/sd-022-a-project-lessons-learned.git
+   72  cd sd-022-a-project-lessons-learned
+   73  npm install
+   74  sudo apt install npm
+   75  ls
+   76  git checkout -b laura-lana-lessons-learned
+   77  touch index.html style.css
+   78  git status
+   79  git add .
+   80  git status
+   81  git commit -m Iniciando o projeto lessons learned. VAMOS COM TUDO :rocket:'\n
+   82  git commit -m 'Iniciando o projeto lessons learned. VAMOS COM TUDO :rocket:'\n
+   83  git status
+   84  git push -u origin laura-lana-lessons-learned
+   85  cd ~
