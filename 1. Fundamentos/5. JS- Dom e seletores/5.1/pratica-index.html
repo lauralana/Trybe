@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRENDENDO DOM</title>
+    <link rel="stylesheet" href="style.css">
+
+    <h1> Prática de fixação 1 </h1>
+    <h2 id="page-title">Título</h2>
+    <p class="paragraphClass" id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p class="paragraphClass" id="second-paragraph">Segundo parágrafo!</p>
+    <p class="paragraphClass" id="paragraph">Dê uma cor para este parágrafo!</p>
+</head>
+
+<body id="container">
+    <header id="header-container">
+        <h1> Prática de fixação 2</h1>
+        <h2>Administrador do Tempo da Trybe</h2>
+    </header>
+
+    <section class="emergency-tasks">
+        <div>
+            <h3>Urgente e Importante</h3>
+            <ul class="ul1">
+                Terminar projeto do bloco 4<br>
+                Encontrar o Severo (meu gato desaparecido a 3s, no dia 24/03)<br>
+                Traçar um plano financeiro pra minha vida
+            </ul>
+        </div>
+        <div>
+            <h3>Urgente e Não-Importante</h3>
+            <ul class="ul1">
+                Iniciar a academia<br>
+                Fazer anotações no caderno<br>
+                Fazer roupa comos tecidos guardados
+            </ul>
+        </div>
+    </section>
+
+    <section class="no-emergency-tasks">
+        <div>
+            <h3>Não-Urgente e Importante</h3>
+            <ul class="ul2">
+                Praticar meu ingles <br>
+                Brincar com meu gatos<br>
+                Retomar hábito de leitura
+            </ul>
+        </div>
+        <div>
+            <h3>Não-Urgente e Não-Importante</h3>
+            <ul class="ul2">
+                Cortar meu cabelo<br>
+                Colocar os episodios de One Piece em dia<br>
+                Ouvir meus podcasts
+            </ul>
+        </div>
+    </section>
+
+    <footer id="footer-container">
+        <div>&copy; Trybe</div>
+    </footer>
+
+    <script src="script.js"> </script>
+    <!-- O script deve ser carregado só dps que a pag for carregada, por isso ele fica no final do body, assim ao carregar minha pag eu garanto q meus elmentos html serão exibidos. 
+    getElementById = Retorna todo conteudo do ID informado. Para acessar o conteudo completo, não apenas do ID escreve .innerHTML, essa função retorna tbm as tags internas.
+    O innerText apresenta td conteudo, porém sem as tags.
+    
+    getElementsByClassName é tratato como lista, para altera-lo, mesmo q tenha apenas um item devemos informar a posição do array
+
+    getElementsByTagName é uma função para acessar elementos da pag e retorna uma lista para ser alterada, logo devemos usar a ideia de array e posição.
+    -->
+</body>
+
+</html>
