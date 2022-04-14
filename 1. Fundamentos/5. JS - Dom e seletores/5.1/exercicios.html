@@ -85,10 +85,12 @@
         }
         txtToUpperCase();
 
-        //6 (não entendi)
+        //6 
         function showAllTags() {
-            let tagP = document.getElementsByTagName('p').length;
-            console.log(tagP.innerHTML);    
+            let tagP = document.getElementsByTagName('p');
+            for (let i = 0; i < tagP.length; i += 1){
+                console.log(tagP[i]);
+            }
         }
         showAllTags();
     </script>
